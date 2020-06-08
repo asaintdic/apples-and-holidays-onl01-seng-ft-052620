@@ -17,7 +17,7 @@ holiday_supplies = {
 def second_supply_for_fourth_of_july(holiday_supplies)
    holiday_supplies[:summer][:fourth_of_july][1]
 end
-second_supply_for_fourth_of_july(holiday_supplies)
+
 
 
 def add_supply_to_winter_holidays(holidays_supplies, supply)
@@ -42,8 +42,7 @@ end
 def all_winter_holiday_supplies(holiday_supplies)
   holiday_supplies[:winter].values.flatten
 end
- all_winter_holiday_supplies(holiday_supplies)
-
+ 
 
 def all_supplies_in_holidays(holiday_supplies)
   # iterate through holiday_hash and print items such that your readout resembles:
@@ -60,7 +59,7 @@ def all_supplies_in_holidays(holiday_supplies)
     end
  end
 end
-all_supplies_in_holidays(holiday_supplies)
+
 
 
 
@@ -72,7 +71,7 @@ def all_holidays_with_bbq(holiday_supplies)
  end.flatten.compact
 end
  
-all_holidays_with_bbq(holiday_supplies)
+
 
 
 
